@@ -1,4 +1,4 @@
-package com.mycompany.myapp.service.dto;
+package com.mycompany.myapp.dto;
 
 import com.mycompany.myapp.domain.User;
 import java.io.Serializable;

@@ -34,7 +34,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/Restaurant
     username: Restaurant
-    password:
+    password: Restaurant
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -54,7 +54,7 @@ spring:
     cache: false
 
 server:
-  port: 8080
+  port: 8085
 
 # ===================================================================
 # JHipster specific properties
@@ -105,3 +105,9 @@ jhipster:
 # ===================================================================
 
 # application:
+springdoc:
+  swagger-ui:
+    path: /
+  api-docs:
+    path: /v3/api-docs
+  show-actuator: false

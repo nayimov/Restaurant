@@ -2,11 +2,11 @@ package com.mycompany.myapp.web.rest;
 
 import com.mycompany.myapp.config.Constants;
 import com.mycompany.myapp.domain.User;
+import com.mycompany.myapp.dto.AdminUserDTO;
 import com.mycompany.myapp.repository.UserRepository;
 import com.mycompany.myapp.security.AuthoritiesConstants;
 import com.mycompany.myapp.service.MailService;
 import com.mycompany.myapp.service.UserService;
-import com.mycompany.myapp.service.dto.AdminUserDTO;
 import com.mycompany.myapp.web.rest.errors.BadRequestAlertException;
 import com.mycompany.myapp.web.rest.errors.EmailAlreadyUsedException;
 import com.mycompany.myapp.web.rest.errors.LoginAlreadyUsedException;

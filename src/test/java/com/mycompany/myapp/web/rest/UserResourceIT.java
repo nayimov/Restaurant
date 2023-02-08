@@ -8,9 +8,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.mycompany.myapp.IntegrationTest;
 import com.mycompany.myapp.domain.Authority;
 import com.mycompany.myapp.domain.User;
+import com.mycompany.myapp.dto.AdminUserDTO;
 import com.mycompany.myapp.repository.UserRepository;
 import com.mycompany.myapp.security.AuthoritiesConstants;
-import com.mycompany.myapp.service.dto.AdminUserDTO;
 import com.mycompany.myapp.service.mapper.UserMapper;
 import com.mycompany.myapp.web.rest.vm.ManagedUserVM;
 import java.time.Instant;
